@@ -59,10 +59,13 @@ body, html{
 
 }
 
+.logo{
+    text-align:center;
+}
+
 .logo img{
     height:40px;
-    margin-left:112px;
-    margin-top:40px;
+    margin-top:20px;
 }
 
 
@@ -118,7 +121,12 @@ body, html{
     text-align:center;
     display:flex;
     height:100px;
+    margin:auto;
     padding-left:50px;
+}
+
+.sign-up br{
+    display:none;
 }
 
 .sign-up a{
@@ -126,7 +134,38 @@ body, html{
     
 }
 
+.sign-up p{
+    margin-bottom:0;
+}
+
 .btn-primary:hover{
     background-color:black;
     border-color: #5E2886;
+}
+
+@media screen and (max-device-width: 360px) {
+    .copyrights{
+        padding-left:20px;
+        display:flex;
+        height:100px;
+    }
+
+    .sign-up{
+        text-align:center;
+        display:flex;
+        height:50px;
+        margin:auto;
+        padding-left:0px;
+        margin-bottom:20px;
+    }
+
+    .sign-up br{
+        display:block;
+    }
+
+    .sign-up p{
+        margin:auto;
+        text-align:center;
+    }
+
 }
