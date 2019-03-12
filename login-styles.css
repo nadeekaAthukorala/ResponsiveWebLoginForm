@@ -65,12 +65,11 @@ body, html{
     margin-top:40px;
 }
 
-.login-heading{
+
+.login-heading h6{
     text-align:center;
     font-size:16px;
-    font-weight:800px;
-    padding:10px;
-
+    font-weight:400px;
 }
 
 .form-header{
@@ -82,29 +81,26 @@ body, html{
 }
 
 .form-input{
-    width:80%;
+    width:100%;
     margin:auto;
 
 }
 
 .form-labels label{
-    padding-left:38px;
     margin-bottom:0px;
 }
 
 .form-check{
-    padding-left:3.25rem;
     margin-top:-12px;
 }
 
 .login-button {
     width:100%;
-    padding-left:38px;
     margin-top:15px;
    
 }
 .login-button button{
-    width:89%;
+    width:100%;
     background-color:#5E2886;
     border-color: #5E2886;
     margin:auto;
@@ -121,7 +117,7 @@ body, html{
 .sign-up{
     text-align:center;
     display:flex;
-    height:70px;
+    height:100px;
     padding-left:50px;
 }
 
